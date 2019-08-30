@@ -72,13 +72,14 @@
         "code": ""
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "CusResource/testhiru.js"
+    ],
     "rootNode": "80a990f2-30ba-482f-be33-0ed9d194c48e",
     "openFiles": [
-      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
-      "8f7a5a30-1abf-455a-9d04-2ca0edd4f868"
+      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
     ],
-    "currentFileId": "8f7a5a30-1abf-455a-9d04-2ca0edd4f868",
+    "currentFileId": "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
     "resources": {
       "ddbBTMenu": {
         "name": "ddbBTMenu",
@@ -431,7 +432,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567157515468
+    "lastSave": 1567157539544
   },
   "VCS_STATE": {
     "provider": "GitHub",
