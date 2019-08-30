@@ -361,7 +361,12 @@
           "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
           "topicRegion": "us-east-1",
           "snsType": 0,
-          "subscriptions": []
+          "subscriptions": [
+            {
+              "type": "http",
+              "endpoint": "http://test.com"
+            }
+          ]
         }
       }
     },
@@ -406,7 +411,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567156485994
+    "lastSave": 1567156600622
   },
   "VCS_STATE": {
     "provider": "GitHub",
