@@ -39,33 +39,7 @@
       "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
     ],
     "currentFileId": "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
-    "resources": {
-      "apigusEast1sachithraAPInamehiruany": {
-        "name": "apigusEast1sachithraAPInamehiruany",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiMode": 1,
-          "apiName": "sachithraAPIname",
-          "apiId": "052p9kjn18",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "zrjp6rdv3b",
-          "existingResources": {
-            "/": "zrjp6rdv3b"
-          },
-          "resourceMode": 0,
-          "resourceName": "hiru",
-          "resourcePath": "/hiru",
-          "restMethod": "ANY",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "Test",
-          "stageDeploymentId": "z8rbt4",
-          "mode": 1
-        }
-      }
-    },
+    "resources": {},
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -91,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567152878511
+    "lastSave": 1567153064120
   },
   "VCS_STATE": {
     "provider": "GitHub",
