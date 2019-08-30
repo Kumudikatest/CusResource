@@ -38,13 +38,22 @@
               "BatchSize": "100"
             }
           }
-        ]
+        ],
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:execute-api:us-east-1:hiru:///",
+              "Action": [
+                "*"
+              ]
+            }
+          ]
+        }
       }
     },
-    "deletedFiles": [
-      "CusResource/k.py",
-      "CusResource/__init__.py"
-    ],
+    "deletedFiles": [],
     "rootNode": "80a990f2-30ba-482f-be33-0ed9d194c48e",
     "openFiles": [
       "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
@@ -385,7 +394,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567156196636
+    "lastSave": 1567156369924
   },
   "VCS_STATE": {
     "provider": "GitHub",
