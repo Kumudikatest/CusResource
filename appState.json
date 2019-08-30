@@ -8,7 +8,9 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
+          "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
+          "cd085091-1420-4876-924a-6698544dfae6",
+          "8f596ee1-f41e-410f-a1e0-62e373cabea5"
         ],
         "isRemovable": false,
         "filePath": "CusResource"
@@ -22,7 +24,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "CusResource/lambda.js",
-        "code": "exports.handler = function (event, context, callback) {\n    //hirudinee\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    //hirudinee\n    //kkk\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -39,12 +41,43 @@
             }
           }
         ]
+      },
+      "cd085091-1420-4876-924a-6698544dfae6": {
+        "id": "cd085091-1420-4876-924a-6698544dfae6",
+        "parent": "80a990f2-30ba-482f-be33-0ed9d194c48e",
+        "name": "k.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CusResource/k.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "8f596ee1-f41e-410f-a1e0-62e373cabea5": {
+        "id": "8f596ee1-f41e-410f-a1e0-62e373cabea5",
+        "parent": "80a990f2-30ba-482f-be33-0ed9d194c48e",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CusResource/__init__.py",
+        "code": ""
       }
     },
     "deletedFiles": [],
     "rootNode": "80a990f2-30ba-482f-be33-0ed9d194c48e",
     "openFiles": [
-      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
+      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
+      "cd085091-1420-4876-924a-6698544dfae6"
     ],
     "currentFileId": "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
     "resources": {
@@ -353,6 +386,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "cd085091-1420-4876-924a-6698544dfae6",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/CusResource",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -374,7 +415,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567154693071
+    "lastSave": 1567155362661
   },
   "VCS_STATE": {
     "provider": "GitHub",
