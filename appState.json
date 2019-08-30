@@ -8,8 +8,7 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
-          "04254305-1f3f-4d88-a969-47e42a16a519"
+          "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
         ],
         "isRemovable": false,
         "filePath": "CusResource"
@@ -59,34 +58,16 @@
             }
           ]
         }
-      },
-      "04254305-1f3f-4d88-a969-47e42a16a519": {
-        "id": "04254305-1f3f-4d88-a969-47e42a16a519",
-        "parent": "80a990f2-30ba-482f-be33-0ed9d194c48e",
-        "name": "testhiru.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "CusResource/testhiru.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "CusResource/testhiru.js"
+    ],
     "rootNode": "80a990f2-30ba-482f-be33-0ed9d194c48e",
     "openFiles": [
-      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
-      "04254305-1f3f-4d88-a969-47e42a16a519"
+      "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a"
     ],
-    "currentFileId": "04254305-1f3f-4d88-a969-47e42a16a519",
+    "currentFileId": "fbf94d96-7fc2-42d7-b497-bb45f0dfff0a",
     "resources": {
       "ddbBTMenu": {
         "name": "ddbBTMenu",
@@ -439,7 +420,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567156920563
+    "lastSave": 1567157343906
   },
   "VCS_STATE": {
     "provider": "GitHub",
