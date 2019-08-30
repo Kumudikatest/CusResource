@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInamehiruany",
+            "config": {}
+          }
+        ]
       }
     },
     "deletedFiles": [],
@@ -91,7 +96,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567150559555
+    "lastSave": 1567151070704
   },
   "VCS_STATE": {
     "provider": "GitHub",
